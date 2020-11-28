@@ -14,20 +14,24 @@
 			<Item Name="Serial Devices.lvlib" Type="Library" URL="../Serial Devices/Serial Devices.lvlib"/>
 		</Item>
 		<Item Name="Implementations" Type="Folder">
+			<Item Name="CYPRESS.lvclass" Type="LVClass" URL="../TI/CYPRESS.lvclass"/>
 			<Item Name="NXP.lvclass" Type="LVClass" URL="../NXP/NXP.lvclass"/>
 			<Item Name="SIMULATED.lvclass" Type="LVClass" URL="../SIMULATED/SIMULATED.lvclass"/>
-			<Item Name="TI.lvclass" Type="LVClass" URL="../TI/TI.lvclass"/>
 		</Item>
 		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
 		<Item Name="Selec_COM.vi" Type="VI" URL="../Selec_COM.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="Time-Delay Override Options.ctl" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delay Override Options.ctl"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="INTERFACE UI Data.ctl" Type="VI" URL="../../../../6 SEMESTRE/MICROPROCESADORES_AVANZADOS/P5_P2/INTERFACE_LABVIEW/INTERFACE UI Data.ctl"/>

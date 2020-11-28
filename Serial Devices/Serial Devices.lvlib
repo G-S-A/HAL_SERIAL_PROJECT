@@ -5,7 +5,11 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Abstract Messages for Caller" Type="Folder"/>
 	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Crear Conexion Msg.lvclass" Type="LVClass" URL="../../Serial Devices Messages/Crear Conexion Msg/Crear Conexion Msg.lvclass"/>
+		<Item Name="Get Data Msg.lvclass" Type="LVClass" URL="../../Serial Devices Messages/Get Data Msg/Get Data Msg.lvclass"/>
 		<Item Name="Init Msg.lvclass" Type="LVClass" URL="../../Serial Devices Messages/Init Msg/Init Msg.lvclass"/>
 	</Item>
+	<Item Name="Escritura del Com.vi" Type="VI" URL="../Escritura del Com.vi"/>
+	<Item Name="Lectura del Com.vi" Type="VI" URL="../Lectura del Com.vi"/>
 	<Item Name="Serial Devices.lvclass" Type="LVClass" URL="../Serial Devices.lvclass"/>
 </Library>
