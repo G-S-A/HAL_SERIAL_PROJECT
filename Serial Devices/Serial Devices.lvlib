@@ -9,6 +9,7 @@
 		<Item Name="Crear Conexion Msg.lvclass" Type="LVClass" URL="../../Serial Devices Messages/Crear Conexion Msg/Crear Conexion Msg.lvclass"/>
 		<Item Name="Get Data Msg.lvclass" Type="LVClass" URL="../../Serial Devices Messages/Get Data Msg/Get Data Msg.lvclass"/>
 		<Item Name="Init Msg.lvclass" Type="LVClass" URL="../../Serial Devices Messages/Init Msg/Init Msg.lvclass"/>
+		<Item Name="SX Msg.lvclass" Type="LVClass" URL="../../Serial Devices Messages/SX Msg/SX Msg.lvclass"/>
 	</Item>
 	<Item Name="Escritura del Com.vi" Type="VI" URL="../Escritura del Com.vi"/>
 	<Item Name="Lectura del Com.vi" Type="VI" URL="../Lectura del Com.vi"/>
