@@ -10,6 +10,7 @@
 		<Item Name="Get Data Msg.lvclass" Type="LVClass" URL="../../Serial Devices Messages/Get Data Msg/Get Data Msg.lvclass"/>
 		<Item Name="GX Msg.lvclass" Type="LVClass" URL="../../Serial Devices Messages/GX Msg/GX Msg.lvclass"/>
 		<Item Name="Init Msg.lvclass" Type="LVClass" URL="../../Serial Devices Messages/Init Msg/Init Msg.lvclass"/>
+		<Item Name="SP Msg.lvclass" Type="LVClass" URL="../../Serial Devices Messages/SP Msg/SP Msg.lvclass"/>
 		<Item Name="SX Msg.lvclass" Type="LVClass" URL="../../Serial Devices Messages/SX Msg/SX Msg.lvclass"/>
 	</Item>
 	<Item Name="Escritura del Com.vi" Type="VI" URL="../Escritura del Com.vi"/>
